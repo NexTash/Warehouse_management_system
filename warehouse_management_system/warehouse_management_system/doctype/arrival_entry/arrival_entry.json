@@ -1,0 +1,69 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "A-E.###",
+ "creation": "2024-06-27 12:12:09.726540",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "entry_date",
+  "section_break_vx9la",
+  "warehouse_name",
+  "section_break_kdjpz",
+  "warehouse_location"
+ ],
+ "fields": [
+  {
+   "fieldname": "warehouse_location",
+   "fieldtype": "Table",
+   "label": "Warehouse Location",
+   "options": "Warehouse location"
+  },
+  {
+   "fieldname": "entry_date",
+   "fieldtype": "Date",
+   "label": "Entry Date"
+  },
+  {
+   "fieldname": "warehouse_name",
+   "fieldtype": "Link",
+   "label": "Warehouse Name",
+   "options": "Warehouse"
+  },
+  {
+   "fieldname": "section_break_vx9la",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_kdjpz",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-27 16:29:20.370441",
+ "modified_by": "Administrator",
+ "module": "Warehouse Management System",
+ "name": "Arrival Entry",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
