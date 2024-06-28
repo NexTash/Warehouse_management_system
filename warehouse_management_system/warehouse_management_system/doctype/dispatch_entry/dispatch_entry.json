@@ -38,12 +38,12 @@
    "fieldname": "warehouse_location",
    "fieldtype": "Table",
    "label": "Warehouse Location",
-   "options": "Warehouse location"
+   "options": "Warehouse Child"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-27 16:29:08.346726",
+ "modified": "2024-06-28 16:37:09.771680",
  "modified_by": "Administrator",
  "module": "Warehouse Management System",
  "name": "Dispatch Entry",

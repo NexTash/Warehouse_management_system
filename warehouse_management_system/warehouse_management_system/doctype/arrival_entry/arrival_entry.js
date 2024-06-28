@@ -6,7 +6,7 @@ frappe.ui.form.on('Arrival Entry', {
         frm.set_query("item_location",'warehouse_location', () => {
             return {
                 filters: {
-                    custom_warehouse_name: frm.doc.warehouse_name
+                    warehouse: frm.doc.warehouse_name
                 }
             };
         });

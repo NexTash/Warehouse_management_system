@@ -1,45 +1,49 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-06-27 12:03:39.993909",
+ "creation": "2024-06-28 16:38:18.529507",
+ "default_view": "List",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "item_name",
-  "item_location",
-  "qty"
+  "location",
+  "warehouse"
  ],
  "fields": [
   {
-   "fieldname": "item_name",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "item name",
-   "options": "Item"
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
   },
   {
-   "fieldname": "item_location",
+   "fieldname": "warehouse",
    "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Item Location ",
-   "options": "Location"
-  },
-  {
-   "fieldname": "qty",
-   "fieldtype": "Int",
-   "in_list_view": 1,
-   "label": "QTY"
+   "label": "Warehouse",
+   "options": "Warehouse"
   }
  ],
  "index_web_pages_for_search": 1,
- "istable": 1,
  "links": [],
- "modified": "2024-06-27 20:14:16.631880",
+ "modified": "2024-06-28 16:38:18.529507",
  "modified_by": "Administrator",
  "module": "Warehouse Management System",
- "name": "Warehouse location",
+ "name": "Warehouse Location",
  "owner": "Administrator",
- "permissions": [],
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
